@@ -274,6 +274,35 @@ img {
     color: #434455;
     letter-spacing: 0.02em;
 }
+.our-team-li-social-network-ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    list-style-type: none;
+}
+.our-team-li-social-network-li {
+    width: 40px;
+    height: 40px;
+}
+.our-team-li-social-network-a {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our-team-li-social-network-a:hover {
+    background-color: #404bbf;
+}
+.our-team-li-social-network-a:focus {
+    background-color: #404bbf;
+}
+.social-networks {
+    fill:#f4f4fd;
+}
 
 .our-portfolio {
     padding: 120px 0;
