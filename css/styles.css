@@ -74,8 +74,25 @@ img {
     letter-spacing: 0.02em;
     text-decoration: none;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}   
+.nav-li-a:hover {
+    color: #404bbf;
 }
-.nav-li-a::after {
+.nav-li-a:focus {
+    color: #404bbf;
+}
+.nav-li-a-selected {
+    position: relative;
+    color: #404bbf;
+    padding: 24px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-li-a-selected::after {
     content: '';
     width: 100%;
     position: absolute;
@@ -85,12 +102,7 @@ img {
     background-color: #404bbf;
     border-radius: 2px;
 }
-.nav-li-a:hover {
-    color: #404bbf;
-}
-.nav-li-a:focus {
-    color: #404bbf;
-}
+
 .address {
     font-style: normal;
 }
@@ -183,6 +195,16 @@ img {
     display: block;
     padding: 12px;
     flex-basis: calc((100% - 72px) / 4)
+}
+.advantages-li-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
 }
 .advantages-li-h {
     margin-bottom: 8px;
