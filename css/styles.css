@@ -403,6 +403,10 @@ img {
     display: flex;
     align-items: baseline;
 }
+.footer-div {
+    display: flex;
+    align-items: baseline;
+}
 .footer-logo-and-p {
     margin-right: 120px;
 }
