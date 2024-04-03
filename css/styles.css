@@ -359,7 +359,7 @@ img {
     position: relative;
     overflow: hidden;
 }
-.our-portfolio-li:hover {
+.our-portfolio-image:hover .our-portfolio-image-p {
     transform: translateY(0%);
 }
 .our-portfolio-image-p {
